@@ -1,0 +1,9 @@
+pin,function,J26_step,J28_channel,J29_control,direction_at_main,notes
+1,LED power,+5V,+5V,+5V,power,5 V constant-current LED supply
+2,Logic power,+3V3,+3V3,+3V3,power,3.3 V shift-register supply
+3,Ground,GND,GND,GND,power,Common logic and LED return
+4,Shift clock,STEP_BUTTON_CLK,CHANNEL_BUTTON_CLK,CONTROL_BUTTON_CLK,out,Shared MCU clock with one 33 Ohm resistor per cable branch
+5,Frame,STEP_BUTTON_FRAME,CHANNEL_BUTTON_FRAME,CONTROL_BUTTON_FRAME,out,LED latch and locally inverted button parallel-load with one 33 Ohm resistor per branch
+6,LED blank,STEP_LED_BLANK,CHANNEL_LED_BLANK,CONTROL_LED_BLANK,out,Active high with one 33 Ohm resistor per branch
+7,LED serial data,STEP_LED_DATA,CHANNEL_LED_DATA,CONTROL_LED_DATA,out,Dedicated 33 Ohm terminated data output for each board
+8,Button serial data,STEP_BUTTON_DATA,CHANNEL_BUTTON_DATA,CONTROL_BUTTON_DATA,in,Dedicated input through 100 Ohm for each board

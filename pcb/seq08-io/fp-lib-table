@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SEQ08")(type "KiCad")(uri "${KIPRJMOD}/seq08.pretty")(options "")(descr "SEQ-08 project footprints"))
+)

@@ -1,0 +1,2751 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "329570a8-1cbc-5a6f-97f1-592351104171")
+	(paper "A3")
+	(title_block
+		(title "SEQ-08 Passive PJ398SM Jack Board")
+		(date "2026-07-17")
+		(rev "A")
+		(company "SEQ-08")
+		(comment 1 "Eight CV, eight gate, clock input/output, and reset input jacks")
+		(comment 2 "No active circuitry, connected to the main PCB with keyed IDC cables")
+	)
+	(lib_symbols
+		(symbol "SEQ08_JACKS:PJ398SM"
+			(pin_names (offset 1.0))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J" (at 0 -7.620 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+			(property "Value" "PJ398SM" (at 0 7.620 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+			(property "Footprint" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(property "Datasheet" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(property "Description" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(symbol "PJ398SM_0_1"
+				(rectangle
+					(start -7.620 -5.080)
+					(end 7.620 5.080)
+					(stroke (width 0.254) (type solid))
+					(fill (type background))
+				)
+			)
+			(symbol "PJ398SM_1_1"
+			(pin passive line
+				(at -10.160 -1.270 0)
+				(length 2.54)
+				(name "TIP" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "T" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -10.160 1.270 0)
+				(length 2.54)
+				(name "SLEEVE" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "S" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 10.160 0.000 180)
+				(length 2.54)
+				(name "TIP_NORMAL" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "TN" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SEQ08_JACKS:CONN_2X10"
+			(pin_names (offset 1.0))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J" (at 0 -16.510 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+			(property "Value" "CONN_2X10" (at 0 16.510 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+			(property "Footprint" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(property "Datasheet" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(property "Description" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(symbol "CONN_2X10_0_1"
+				(rectangle
+					(start -10.160 -13.970)
+					(end 10.160 13.970)
+					(stroke (width 0.254) (type solid))
+					(fill (type background))
+				)
+			)
+			(symbol "CONN_2X10_1_1"
+			(pin passive line
+				(at -12.700 -11.430 0)
+				(length 2.54)
+				(name "PIN_1" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "1" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -8.890 0)
+				(length 2.54)
+				(name "PIN_3" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "3" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -6.350 0)
+				(length 2.54)
+				(name "PIN_5" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "5" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -3.810 0)
+				(length 2.54)
+				(name "PIN_7" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "7" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -1.270 0)
+				(length 2.54)
+				(name "PIN_9" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "9" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 1.270 0)
+				(length 2.54)
+				(name "PIN_11" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "11" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 3.810 0)
+				(length 2.54)
+				(name "PIN_13" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "13" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 6.350 0)
+				(length 2.54)
+				(name "PIN_15" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "15" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 8.890 0)
+				(length 2.54)
+				(name "PIN_17" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "17" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 11.430 0)
+				(length 2.54)
+				(name "PIN_19" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "19" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -11.430 180)
+				(length 2.54)
+				(name "PIN_2" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "2" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -8.890 180)
+				(length 2.54)
+				(name "PIN_4" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "4" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -6.350 180)
+				(length 2.54)
+				(name "PIN_6" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "6" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -3.810 180)
+				(length 2.54)
+				(name "PIN_8" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "8" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -1.270 180)
+				(length 2.54)
+				(name "PIN_10" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "10" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 1.270 180)
+				(length 2.54)
+				(name "PIN_12" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "12" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 3.810 180)
+				(length 2.54)
+				(name "PIN_14" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "14" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 6.350 180)
+				(length 2.54)
+				(name "PIN_16" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "16" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 8.890 180)
+				(length 2.54)
+				(name "PIN_18" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "18" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 11.430 180)
+				(length 2.54)
+				(name "PIN_20" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "20" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SEQ08_JACKS:CONN_2X12"
+			(pin_names (offset 1.0))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J" (at 0 -19.050 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+			(property "Value" "CONN_2X12" (at 0 19.050 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+			(property "Footprint" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(property "Datasheet" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(property "Description" "" (at 0 0 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+			(symbol "CONN_2X12_0_1"
+				(rectangle
+					(start -10.160 -16.510)
+					(end 10.160 16.510)
+					(stroke (width 0.254) (type solid))
+					(fill (type background))
+				)
+			)
+			(symbol "CONN_2X12_1_1"
+			(pin passive line
+				(at -12.700 -13.970 0)
+				(length 2.54)
+				(name "PIN_1" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "1" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -11.430 0)
+				(length 2.54)
+				(name "PIN_3" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "3" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -8.890 0)
+				(length 2.54)
+				(name "PIN_5" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "5" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -6.350 0)
+				(length 2.54)
+				(name "PIN_7" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "7" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -3.810 0)
+				(length 2.54)
+				(name "PIN_9" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "9" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 -1.270 0)
+				(length 2.54)
+				(name "PIN_11" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "11" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 1.270 0)
+				(length 2.54)
+				(name "PIN_13" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "13" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 3.810 0)
+				(length 2.54)
+				(name "PIN_15" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "15" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 6.350 0)
+				(length 2.54)
+				(name "PIN_17" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "17" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 8.890 0)
+				(length 2.54)
+				(name "PIN_19" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "19" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 11.430 0)
+				(length 2.54)
+				(name "PIN_21" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "21" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at -12.700 13.970 0)
+				(length 2.54)
+				(name "PIN_23" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "23" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -13.970 180)
+				(length 2.54)
+				(name "PIN_2" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "2" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -11.430 180)
+				(length 2.54)
+				(name "PIN_4" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "4" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -8.890 180)
+				(length 2.54)
+				(name "PIN_6" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "6" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -6.350 180)
+				(length 2.54)
+				(name "PIN_8" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "8" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -3.810 180)
+				(length 2.54)
+				(name "PIN_10" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "10" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 -1.270 180)
+				(length 2.54)
+				(name "PIN_12" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "12" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 1.270 180)
+				(length 2.54)
+				(name "PIN_14" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "14" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 3.810 180)
+				(length 2.54)
+				(name "PIN_16" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "16" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 6.350 180)
+				(length 2.54)
+				(name "PIN_18" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "18" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 8.890 180)
+				(length 2.54)
+				(name "PIN_20" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "20" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 11.430 180)
+				(length 2.54)
+				(name "PIN_22" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "22" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			(pin passive line
+				(at 12.700 13.970 180)
+				(length 2.54)
+				(name "PIN_24" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+				(number "24" (effects
+			(font
+				(size 1.0 1.0)
+			)
+		))
+			)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 54.610 49.530)
+		(uuid "a779a6cb-4ee6-587b-b3ee-db69942bb99f")
+	)
+	(no_connect
+		(at 85.090 49.530)
+		(uuid "3759d178-777d-5480-8c8e-3cb048a756a6")
+	)
+	(no_connect
+		(at 115.570 49.530)
+		(uuid "5d95918c-679b-5d1b-b8eb-127f22ec9bf1")
+	)
+	(no_connect
+		(at 144.780 49.530)
+		(uuid "4bb43a5c-0b5a-5607-b76f-a48e04b20007")
+	)
+	(no_connect
+		(at 175.260 49.530)
+		(uuid "a8d8f8af-319e-55de-b353-c0e9ab3af471")
+	)
+	(no_connect
+		(at 205.740 49.530)
+		(uuid "63667b08-2062-57dc-a133-cfe4a9b9167d")
+	)
+	(no_connect
+		(at 234.950 49.530)
+		(uuid "ba29d8b4-cd3a-539b-b1cb-9c15706e0578")
+	)
+	(no_connect
+		(at 265.430 49.530)
+		(uuid "e2c16839-484d-5fd4-a9ae-44d657f9c0c5")
+	)
+	(no_connect
+		(at 54.610 121.920)
+		(uuid "ec09b9b8-7ced-5c38-8fc8-d97e0b30d453")
+	)
+	(no_connect
+		(at 85.090 121.920)
+		(uuid "9af579ef-3936-5e11-8fc5-c46163e9cc4f")
+	)
+	(no_connect
+		(at 115.570 121.920)
+		(uuid "4caec2c6-98c2-529b-88b6-f0a1154ed764")
+	)
+	(no_connect
+		(at 144.780 121.920)
+		(uuid "09a7bb5a-91ea-52a4-94cb-70b5e0788004")
+	)
+	(no_connect
+		(at 175.260 121.920)
+		(uuid "4da1a0b2-21ba-57ed-b845-95a8f5b74a4f")
+	)
+	(no_connect
+		(at 205.740 121.920)
+		(uuid "10d2df3a-b09d-5c45-9ba3-f81fae49928c")
+	)
+	(no_connect
+		(at 234.950 121.920)
+		(uuid "97be3890-6711-51f7-b216-bacd43cf7f36")
+	)
+	(no_connect
+		(at 265.430 121.920)
+		(uuid "be8bd018-3066-589c-8b43-8c4b9279cdcb")
+	)
+	(no_connect
+		(at 115.570 194.310)
+		(uuid "7a63e05c-2b7e-5aec-b9ae-8705c5754d9a")
+	)
+	(no_connect
+		(at 247.650 195.580)
+		(uuid "0118c430-f768-58c8-b683-c6cd0e52142d")
+	)
+	(no_connect
+		(at 247.650 193.040)
+		(uuid "e98dcd1a-e13f-5731-93f9-079cee50d747")
+	)
+	(no_connect
+		(at 317.500 190.500)
+		(uuid "ee12e9cd-a973-5829-ba1d-23a99adf9e0c")
+	)
+	(label "CV_OUT1"
+		(at 34.290 50.800 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "56abc2d1-7c72-5249-be07-a0ef8b3e0fcb")
+	)
+	(label "GND"
+		(at 34.290 48.260 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "a2b9e402-1b04-5253-adc2-1a4e29decc6d")
+	)
+	(label "CV_OUT2"
+		(at 64.770 50.800 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "266dc15f-4464-5119-a50e-07dceaaafb1d")
+	)
+	(label "GND"
+		(at 64.770 48.260 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "715bdf03-5019-5879-8876-af305b520c94")
+	)
+	(label "CV_OUT3"
+		(at 95.250 50.800 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "39572e59-0953-56fc-b7e7-dd53ffcdf6d0")
+	)
+	(label "GND"
+		(at 95.250 48.260 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "0db042b0-935a-59ff-8431-dfe99d502bb5")
+	)
+	(label "CV_OUT4"
+		(at 124.460 50.800 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "cd0aee03-a8c5-55b5-a86b-cc5473d34195")
+	)
+	(label "GND"
+		(at 124.460 48.260 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "dbd1b121-323d-50b1-9570-daeefee9fe20")
+	)
+	(label "CV_OUT5"
+		(at 154.940 50.800 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "cae7d017-07cc-537e-a03e-0387ea4044e8")
+	)
+	(label "GND"
+		(at 154.940 48.260 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "2014f6f7-efe7-52fd-ae9c-9c6b2963b46d")
+	)
+	(label "CV_OUT6"
+		(at 185.420 50.800 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "012aa6e7-f9ab-5f25-8202-31d4956abfd8")
+	)
+	(label "GND"
+		(at 185.420 48.260 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "f584eed1-4d32-55b3-9c3d-d40fb7f45b7e")
+	)
+	(label "CV_OUT7"
+		(at 214.630 50.800 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "eef635ac-6911-5e36-b3a0-d83c34b39544")
+	)
+	(label "GND"
+		(at 214.630 48.260 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "f2c0bb01-eb81-5919-ab11-08f7212fedc2")
+	)
+	(label "CV_OUT8"
+		(at 245.110 50.800 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "6458b736-1561-5f7e-8b81-923f05008085")
+	)
+	(label "GND"
+		(at 245.110 48.260 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "947d1539-86a0-5087-9200-da356a087524")
+	)
+	(label "GATE_OUT1"
+		(at 34.290 123.190 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "93e95375-3d3f-5271-ae1a-121599ad5ce5")
+	)
+	(label "GND"
+		(at 34.290 120.650 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "ca37dc17-df52-5009-87e0-609a7104538d")
+	)
+	(label "GATE_OUT2"
+		(at 64.770 123.190 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "525aeed9-7f96-51ed-b421-b20df8b64c16")
+	)
+	(label "GND"
+		(at 64.770 120.650 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "14803c75-d6ea-5ca8-91f6-a1e5ebf5a32c")
+	)
+	(label "GATE_OUT3"
+		(at 95.250 123.190 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "9713c6ff-226a-5eba-8b84-f21e2f9779c9")
+	)
+	(label "GND"
+		(at 95.250 120.650 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "a8fb29fe-d8e9-5113-9b77-ced6a770f0b6")
+	)
+	(label "GATE_OUT4"
+		(at 124.460 123.190 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "72c12eba-9668-536f-b381-f95fdbec6c0f")
+	)
+	(label "GND"
+		(at 124.460 120.650 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "361d063e-021e-598f-adf4-4941cbf7deb6")
+	)
+	(label "GATE_OUT5"
+		(at 154.940 123.190 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "fa682789-22e9-52e5-b352-d1dd6960736e")
+	)
+	(label "GND"
+		(at 154.940 120.650 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "ba42aad1-6cb4-559c-a8e9-ef9b1d42c78d")
+	)
+	(label "GATE_OUT6"
+		(at 185.420 123.190 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "f829ecd2-0977-581e-a092-449c97f4dc38")
+	)
+	(label "GND"
+		(at 185.420 120.650 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "3f1e053c-99ff-5ed8-b8d2-5a63b7780b52")
+	)
+	(label "GATE_OUT7"
+		(at 214.630 123.190 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "104bbd76-fed8-5d6f-a13b-1b049ddc54b9")
+	)
+	(label "GND"
+		(at 214.630 120.650 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "4d64a8f9-e555-57ad-9a0f-084eaa8ef47d")
+	)
+	(label "GATE_OUT8"
+		(at 245.110 123.190 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "7ddac473-221a-595a-9620-e288510fc226")
+	)
+	(label "GND"
+		(at 245.110 120.650 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "510f251f-beb6-5c9e-ac41-5e7254f5aefe")
+	)
+	(label "CLOCK_IN_JACK"
+		(at 44.450 195.580 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "339095d8-bce4-5824-b95b-c4aae705c746")
+	)
+	(label "GND"
+		(at 44.450 193.040 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "d19598ae-add9-50df-bf94-7f65faac1754")
+	)
+	(label "GND"
+		(at 64.770 194.310 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "5251f058-b598-5ff9-9b7a-243bb1b473d4")
+	)
+	(label "CLOCK_OUT_JACK"
+		(at 95.250 195.580 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "877765f7-34fa-54e9-819f-2361c7afa703")
+	)
+	(label "GND"
+		(at 95.250 193.040 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "5bae9832-cec8-54f5-bf0f-e0eee69124e0")
+	)
+	(label "RESET_IN_JACK"
+		(at 144.780 195.580 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "35fd4d30-7f8f-5f61-b901-7ffaed9a6588")
+	)
+	(label "GND"
+		(at 144.780 193.040 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "d8e93fdd-fe37-5c68-9a18-f41fabb28f3c")
+	)
+	(label "GND"
+		(at 165.100 194.310 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "3e55aa55-93b7-59fe-b579-09910c1a8c2b")
+	)
+	(label "CV_OUT1"
+		(at 247.650 215.900 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "856f5919-d4ba-502a-8138-273660c43493")
+	)
+	(label "CV_OUT2"
+		(at 247.650 213.360 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "b51ae191-9f8c-5bb9-8259-4ee6f71eb322")
+	)
+	(label "CV_OUT3"
+		(at 247.650 210.820 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "5596c692-2c99-5ab8-9e25-69e7dfa3cb31")
+	)
+	(label "CV_OUT4"
+		(at 247.650 208.280 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "63d6b68a-6f35-52df-a7ef-f4f15a7e6278")
+	)
+	(label "CV_OUT5"
+		(at 247.650 205.740 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "448a46e9-cf1d-5fee-a50a-f86adad07f0c")
+	)
+	(label "CV_OUT6"
+		(at 247.650 203.200 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "d686ca7d-068e-5cde-ae86-1ca9619c6b6b")
+	)
+	(label "CV_OUT7"
+		(at 247.650 200.660 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "6d2ff2a7-e75d-5703-8cd6-80b4da4e3ae8")
+	)
+	(label "CV_OUT8"
+		(at 247.650 198.120 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "8db2edde-ad57-550a-86e1-d74b7ab35de3")
+	)
+	(label "GND"
+		(at 273.050 215.900 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "add18b58-92f1-5e18-a6c6-f110a0000d5f")
+	)
+	(label "GND"
+		(at 273.050 213.360 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "3b25ece3-5a80-5230-a91b-8c3ff79392c0")
+	)
+	(label "GND"
+		(at 273.050 210.820 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "a972eeb1-a499-559e-8bee-845810546e21")
+	)
+	(label "GND"
+		(at 273.050 208.280 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "f36ee86e-32a3-58e5-91e2-2bb0772f7d5e")
+	)
+	(label "GND"
+		(at 273.050 205.740 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "a097f961-b967-5216-b15b-9124aa6ec5f9")
+	)
+	(label "GND"
+		(at 273.050 203.200 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "7acc0c21-bb60-561a-926a-521999ffe7ef")
+	)
+	(label "GND"
+		(at 273.050 200.660 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "1266296d-343e-5d60-99fc-f977dc27c54c")
+	)
+	(label "GND"
+		(at 273.050 198.120 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "8d0d3eb7-3f10-5a4d-93e4-2c9dbdad588b")
+	)
+	(label "GND"
+		(at 273.050 195.580 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "55af30b6-ef9e-57dd-9e4b-79f74146bd49")
+	)
+	(label "GND"
+		(at 273.050 193.040 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "b09a6f64-1698-582e-8b5a-41be0f574cd1")
+	)
+	(label "GATE_OUT1"
+		(at 317.500 218.440 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "5bf09d1d-3f31-50dd-8134-da70dc94e308")
+	)
+	(label "GATE_OUT2"
+		(at 317.500 215.900 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "bc3a37a6-1458-5912-92d8-c6199968a42a")
+	)
+	(label "GATE_OUT3"
+		(at 317.500 213.360 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "a14beb85-0f06-583b-8c3f-ab922dd36f8c")
+	)
+	(label "GATE_OUT4"
+		(at 317.500 210.820 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "76c15c1a-805c-5542-937d-3ca4ee0b8184")
+	)
+	(label "GATE_OUT5"
+		(at 317.500 208.280 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "08b15127-8edc-53db-838e-3a02b5a582d1")
+	)
+	(label "GATE_OUT6"
+		(at 317.500 205.740 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "c01b20dc-5506-538a-9705-41c654b54490")
+	)
+	(label "GATE_OUT7"
+		(at 317.500 203.200 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "cbbca468-bdb1-5f8e-aa4c-974d338a7a5a")
+	)
+	(label "GATE_OUT8"
+		(at 317.500 200.660 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "96982bf4-392e-5d7d-b674-46b117e21e22")
+	)
+	(label "CLOCK_OUT_JACK"
+		(at 317.500 198.120 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "5cec0ed9-3e65-5d71-90a6-2decf3ba29bc")
+	)
+	(label "CLOCK_IN_JACK"
+		(at 317.500 195.580 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "42ec4b4c-42d8-5180-978e-b1dae9ae125a")
+	)
+	(label "RESET_IN_JACK"
+		(at 317.500 193.040 180)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify right bottom)
+		)
+		(uuid "b4bfc273-3e97-5756-ac38-6898395f422c")
+	)
+	(label "GND"
+		(at 342.900 218.440 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "dcb7c508-6855-5847-95ea-827941704918")
+	)
+	(label "GND"
+		(at 342.900 215.900 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "bdd28c5d-2001-5cf4-822d-3e36817532b4")
+	)
+	(label "GND"
+		(at 342.900 213.360 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "f69d687c-bf83-53a7-9bc6-00b80d7f047b")
+	)
+	(label "GND"
+		(at 342.900 210.820 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "17d57fa6-01d6-5505-b41e-0e955722628a")
+	)
+	(label "GND"
+		(at 342.900 208.280 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "9d739586-faf2-55b6-b3b6-cda6fb010596")
+	)
+	(label "GND"
+		(at 342.900 205.740 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "de4d657e-0d71-56a1-9792-22bfa53b58b7")
+	)
+	(label "GND"
+		(at 342.900 203.200 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "15619e94-d9a5-5434-845a-883b5eb2e2fd")
+	)
+	(label "GND"
+		(at 342.900 200.660 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "79850c2d-012f-5ae0-939f-385c4fa56645")
+	)
+	(label "GND"
+		(at 342.900 198.120 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "1caedae2-2a79-5b57-86d8-0af4ca569e1c")
+	)
+	(label "GND"
+		(at 342.900 195.580 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "fe191ed5-7766-5d8c-806f-ddc29e42703f")
+	)
+	(label "GND"
+		(at 342.900 193.040 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "7c347981-17b7-5c71-b93a-c8a062fb8295")
+	)
+	(label "GND"
+		(at 342.900 190.500 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+				(justify left bottom)
+		)
+		(uuid "414177cc-6120-5736-98c0-993c4ef05252")
+	)
+	(text "EIGHT CV OUTPUT JACKS"
+		(exclude_from_sim no)
+		(at 20.000 18.000 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(bold yes)
+			)
+		)
+		(uuid "491177f9-d469-5451-b536-a567e3ccb82a")
+	)
+	(text "EIGHT GATE OUTPUT JACKS"
+		(exclude_from_sim no)
+		(at 20.000 90.000 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(bold yes)
+			)
+		)
+		(uuid "7d907802-cbe3-5c70-883c-169821303805")
+	)
+	(text "CLOCK AND RESET JACKS"
+		(exclude_from_sim no)
+		(at 20.000 162.000 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(bold yes)
+			)
+		)
+		(uuid "5dc52d79-fc11-50cb-af5a-231515f80c82")
+	)
+	(text "MAIN BOARD INTERCONNECTS"
+		(exclude_from_sim no)
+		(at 220.000 162.000 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(bold yes)
+			)
+		)
+		(uuid "cfad84e7-628d-5f7a-8f51-57ab1fc28ed7")
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 44.450 49.530 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12f256aa-a57b-5d3d-b166-6303b18bab0c")
+		(property "Reference" "J1" (at 44.450 41.910 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV OUT 1" (at 44.450 57.150 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 44.450 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 44.450 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 44.450 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "a663e64f-52c2-5061-8942-46be0eeb646e"))
+		(pin "S" (uuid "3b344fcd-0851-52f9-b5bb-8b34e4223350"))
+		(pin "TN" (uuid "91c72f89-63b6-5cb8-b542-caf0ca3e02d3"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J1") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 74.930 49.530 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef1fbdfc-2536-58b3-b854-d7c1018bec0c")
+		(property "Reference" "J2" (at 74.930 41.910 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV OUT 2" (at 74.930 57.150 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 74.930 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 74.930 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 74.930 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "2fdd40f8-dee5-5d1e-8b2e-5b874010cee6"))
+		(pin "S" (uuid "c7ace0e0-5051-5e5a-b441-ab1d465a5693"))
+		(pin "TN" (uuid "8955c0d8-6221-5220-bc15-20d703c46137"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J2") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 105.410 49.530 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcda6753-b6fc-5a48-ac30-80618124a2c9")
+		(property "Reference" "J3" (at 105.410 41.910 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV OUT 3" (at 105.410 57.150 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 105.410 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 105.410 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 105.410 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "c4792b84-3644-5588-9a62-ceec70db4f5b"))
+		(pin "S" (uuid "272ebb50-664e-5834-a6f4-9bcdd3e0a776"))
+		(pin "TN" (uuid "01ec7293-d413-53f3-b28f-19b3abdcefce"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J3") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 134.620 49.530 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8cc2812-1637-5c6d-857b-3b973564e327")
+		(property "Reference" "J4" (at 134.620 41.910 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV OUT 4" (at 134.620 57.150 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 134.620 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 134.620 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 134.620 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "cd704f79-9105-5d0e-b55b-68b009b4c412"))
+		(pin "S" (uuid "49f7feaf-cd33-5b6d-b8ca-db10809a0a0e"))
+		(pin "TN" (uuid "9ee895df-f00f-563a-8324-fc6da98f2676"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J4") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 165.100 49.530 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26e50c52-b452-55ff-be18-507600451258")
+		(property "Reference" "J5" (at 165.100 41.910 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV OUT 5" (at 165.100 57.150 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 165.100 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 165.100 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 165.100 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "2cb85b3b-02ca-55a8-8eb9-cde80791822e"))
+		(pin "S" (uuid "faf93d71-b79a-5745-9411-33c6415bfdfa"))
+		(pin "TN" (uuid "cb3b6620-97b7-55e9-9850-035b5681eba5"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J5") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 195.580 49.530 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92f5c8ee-3f76-5215-b099-23c80afa244f")
+		(property "Reference" "J6" (at 195.580 41.910 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV OUT 6" (at 195.580 57.150 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 195.580 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 195.580 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 195.580 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "06b07622-e0cd-5f7f-aff0-fc8ddff3ce9c"))
+		(pin "S" (uuid "b5becd0e-e23b-546a-914e-3eb04e8c6ebe"))
+		(pin "TN" (uuid "5892771e-b94f-54af-a8bc-59a2745647e2"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J6") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 224.790 49.530 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "416873da-995c-5d2e-af36-06995f8878f2")
+		(property "Reference" "J7" (at 224.790 41.910 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV OUT 7" (at 224.790 57.150 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 224.790 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 224.790 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 224.790 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "77f0b5ff-c44b-591a-9edf-a9c8f0b9477a"))
+		(pin "S" (uuid "4c238fcd-97f6-562e-8d77-8175df95942d"))
+		(pin "TN" (uuid "502fdb4d-d187-50d6-97ea-df8a3c932616"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J7") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 255.270 49.530 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2df61b7c-53d3-58d9-abea-53d64a497f22")
+		(property "Reference" "J8" (at 255.270 41.910 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV OUT 8" (at 255.270 57.150 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 255.270 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 255.270 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 255.270 49.530 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "51ff629c-314a-5e21-b694-79f7817abb22"))
+		(pin "S" (uuid "63642b28-6465-57a1-a651-b51ce9d1014b"))
+		(pin "TN" (uuid "bf55d0b3-2550-5f1b-b01d-46f5bcc287ea"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J8") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 44.450 121.920 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "472e7499-cb96-5b97-940f-90445ea2013f")
+		(property "Reference" "J9" (at 44.450 114.300 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "GATE OUT 1" (at 44.450 129.540 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 44.450 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 44.450 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 44.450 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "b735e702-1dcd-5308-9e5f-c122f4a43c60"))
+		(pin "S" (uuid "7ed692ee-9cec-5d89-9400-e2e6da349fb2"))
+		(pin "TN" (uuid "a07c4bbd-45f9-54a0-8768-794ac7650078"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J9") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 74.930 121.920 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "410d904a-685e-512f-b346-d16dd6c64369")
+		(property "Reference" "J10" (at 74.930 114.300 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "GATE OUT 2" (at 74.930 129.540 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 74.930 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 74.930 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 74.930 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "04809410-06b1-53ba-9873-ddf190a4c219"))
+		(pin "S" (uuid "6e3d1235-a3a8-55b8-ba6c-1051a400a2bf"))
+		(pin "TN" (uuid "b650cea3-db1d-55ba-88cb-ca5105128e52"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J10") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 105.410 121.920 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a272f820-5b9e-5215-90b4-d85da1e3b992")
+		(property "Reference" "J11" (at 105.410 114.300 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "GATE OUT 3" (at 105.410 129.540 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 105.410 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 105.410 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 105.410 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "15f8369d-0deb-5876-95c8-1667b7a8a516"))
+		(pin "S" (uuid "7005e523-408a-58bd-b379-0cb193f5ca3b"))
+		(pin "TN" (uuid "f4e3f4a8-7765-5b64-8bf2-7c30157a4a90"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J11") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 134.620 121.920 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac88734e-551d-5cb2-bead-d4c899b3d22a")
+		(property "Reference" "J12" (at 134.620 114.300 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "GATE OUT 4" (at 134.620 129.540 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 134.620 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 134.620 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 134.620 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "ad7f5006-3135-5f3d-80e4-2493853a7144"))
+		(pin "S" (uuid "d41bf084-971a-50a0-a963-feecb735fa22"))
+		(pin "TN" (uuid "f3c9632b-34d4-56d6-81e6-169fd61de4cb"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J12") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 165.100 121.920 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cbfd6b7-36ff-572d-9705-8dc45a37c28d")
+		(property "Reference" "J13" (at 165.100 114.300 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "GATE OUT 5" (at 165.100 129.540 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 165.100 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 165.100 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 165.100 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "1529908f-cbfd-5b32-9c60-b28dfb88c313"))
+		(pin "S" (uuid "831544d5-873b-5be6-83bb-ceeb5b1e4a8e"))
+		(pin "TN" (uuid "02a69554-f905-5567-98fa-e4e54878df9c"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J13") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 195.580 121.920 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2b1f2c8-df20-51f6-b0c6-082b96759881")
+		(property "Reference" "J14" (at 195.580 114.300 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "GATE OUT 6" (at 195.580 129.540 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 195.580 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 195.580 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 195.580 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "f5c8c71a-91fb-5854-b594-ec8b17df2207"))
+		(pin "S" (uuid "eb98c5ec-983f-580d-9680-54eac4562316"))
+		(pin "TN" (uuid "99106689-dc61-5d48-a6b0-d6b09d722fd0"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J14") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 224.790 121.920 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f4892cb-b508-5b82-952d-45b12cd6ad6f")
+		(property "Reference" "J15" (at 224.790 114.300 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "GATE OUT 7" (at 224.790 129.540 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 224.790 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 224.790 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 224.790 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "14c2363a-acda-55a3-9810-ec283cb63e00"))
+		(pin "S" (uuid "a71c4178-cd1e-5a00-8f7f-193065656fb7"))
+		(pin "TN" (uuid "acf10cfc-47b3-5c05-8cea-10238fe6941d"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J15") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 255.270 121.920 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2680e081-798f-576e-84d7-348ad136a07c")
+		(property "Reference" "J16" (at 255.270 114.300 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "GATE OUT 8" (at 255.270 129.540 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 255.270 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 255.270 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 255.270 121.920 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "5b70f2cf-6fd4-573d-ab19-f9c888cfa747"))
+		(pin "S" (uuid "f165923c-f9de-5970-86d6-d7d425ba66aa"))
+		(pin "TN" (uuid "198b6ad9-a216-5087-9cb3-4e3d59acec22"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J16") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 54.610 194.310 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27d649dd-f377-59f1-8a09-1a119ab831d0")
+		(property "Reference" "J17" (at 54.610 186.690 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CLOCK IN" (at 54.610 201.930 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 54.610 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 54.610 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 54.610 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "ffdf8ff8-1802-5ca4-b6c2-c0dd8486aba5"))
+		(pin "S" (uuid "027f09ed-0c8a-54c2-8aab-6a18aa4d2707"))
+		(pin "TN" (uuid "4bd0b76d-b33f-58ff-bc80-79bd64ab7edd"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J17") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 105.410 194.310 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d48c559b-204e-56eb-a47b-86229e2e26e6")
+		(property "Reference" "J18" (at 105.410 186.690 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CLOCK OUT" (at 105.410 201.930 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 105.410 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 105.410 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 105.410 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "bc9d1bcc-2724-5c31-af7c-ba146035a9f4"))
+		(pin "S" (uuid "cc9deecd-91d6-5a58-9795-f84662409d2d"))
+		(pin "TN" (uuid "7151c9c4-171d-5d42-9db3-eed75adc9536"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J18") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:PJ398SM")
+		(at 154.940 194.310 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97a72c0c-3af1-5f28-a76f-568b643852e9")
+		(property "Reference" "J19" (at 154.940 186.690 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "RESET IN" (at 154.940 201.930 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 154.940 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 154.940 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 154.940 194.310 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "T" (uuid "8a679d47-6d83-5bac-9eed-7f42a22eb7a2"))
+		(pin "S" (uuid "007b9f8a-30eb-5f9a-b694-417a490323d5"))
+		(pin "TN" (uuid "eebd6d20-fd4e-524f-9965-646fae5b07f1"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J19") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:CONN_2X10")
+		(at 260.350 204.470 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fdebce1-0640-596f-9ede-056a30619392")
+		(property "Reference" "J24" (at 260.350 187.960 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "CV MAIN BOARD" (at 260.350 220.980 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" (at 260.350 204.470 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 260.350 204.470 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 260.350 204.470 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "1" (uuid "34e12618-66f3-5881-993d-9aca17b9e65d"))
+		(pin "3" (uuid "db3233da-7b98-5c4d-8bec-92494f6ea4bc"))
+		(pin "5" (uuid "33d6e7b5-0875-5d08-97ba-3dc7578b9016"))
+		(pin "7" (uuid "7ffeba72-81ea-5e6c-ace8-6380e2afcbf9"))
+		(pin "9" (uuid "6afc3df2-1de0-5640-b6c0-10b3ef88586b"))
+		(pin "11" (uuid "31413ac4-b18e-5275-8b0e-0c51c4048a23"))
+		(pin "13" (uuid "2993fd46-85b1-52c8-b52a-4e3efef02904"))
+		(pin "15" (uuid "26a00ef3-a5a5-5b67-883a-ba7c5f9ccef6"))
+		(pin "17" (uuid "14451db4-7c0d-5a4f-88ad-e8fa8e07a00a"))
+		(pin "19" (uuid "88859d65-c693-5994-b25b-d49391137e40"))
+		(pin "2" (uuid "4d3c8a44-1e7a-576b-b650-7e96e5d0a83e"))
+		(pin "4" (uuid "24224b42-7092-55ac-97d9-c634b364681f"))
+		(pin "6" (uuid "ce785378-21c5-5d0b-a60f-b4d76e6fca06"))
+		(pin "8" (uuid "2ed36430-6a6b-5280-a08f-0ad28f32c628"))
+		(pin "10" (uuid "7cb3d214-0211-51ec-becc-e920c2d4ae5d"))
+		(pin "12" (uuid "a96dabd6-4c30-5c1f-a93e-44d741a5339e"))
+		(pin "14" (uuid "4b380bf5-0d63-58a9-84bb-4791ce4978d5"))
+		(pin "16" (uuid "0bdea541-82d8-53fd-ad27-6aeca2d332ed"))
+		(pin "18" (uuid "a4fbc2a0-30d4-50c9-ae22-979216faec03"))
+		(pin "20" (uuid "364ab2df-d3b4-54fe-a460-113a2b17af8b"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J24") (unit 1))
+			)
+		)
+	)
+	(symbol
+		(lib_id "SEQ08_JACKS:CONN_2X12")
+		(at 330.200 204.470 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5993b7c-f710-5432-a360-e760597a585a")
+		(property "Reference" "J25" (at 330.200 185.420 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Value" "DIGITAL MAIN BOARD" (at 330.200 223.520 0) (effects
+			(font
+				(size 1.27 1.27)
+			)
+		))
+		(property "Footprint" "Connector_IDC:IDC-Header_2x12_P2.54mm_Vertical" (at 330.200 204.470 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Datasheet" "" (at 330.200 204.470 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(property "Description" "" (at 330.200 204.470 0) (effects
+			(font
+				(size 1.0 1.0)
+			)
+				(hide yes)
+		))
+		(pin "1" (uuid "00f941e0-5ed0-5517-98be-a6e3e45cd809"))
+		(pin "3" (uuid "58b186f8-aefb-5649-9e4d-c76e5b1dddb4"))
+		(pin "5" (uuid "4bd81eaf-2a20-555d-a6ff-03f2a247128f"))
+		(pin "7" (uuid "2578fd00-14c3-534b-884a-d54184931b6e"))
+		(pin "9" (uuid "21efb0d1-ee16-5ab0-b167-fc975c3b345b"))
+		(pin "11" (uuid "33de5e00-5245-5313-8eee-44fe09c58771"))
+		(pin "13" (uuid "a27f16f0-11ee-57ee-a234-bb3b3e1972ec"))
+		(pin "15" (uuid "39f3af48-9d71-5367-883a-df5f90bfb608"))
+		(pin "17" (uuid "39c2c93e-35aa-5a5d-9123-8660365ce5c7"))
+		(pin "19" (uuid "725866ee-0a72-5093-8fcc-80e0fc2ece41"))
+		(pin "21" (uuid "072439cb-2b61-573a-a429-e4f08d6eb2f3"))
+		(pin "23" (uuid "3a4a640e-1e69-5b87-99fc-b2a9d45f8498"))
+		(pin "2" (uuid "94b9f328-0e4a-58ec-be12-9ac920c06cfb"))
+		(pin "4" (uuid "11b12b2f-00c6-563e-939d-60536b921dba"))
+		(pin "6" (uuid "16ac3a8e-f85a-5036-881c-a125def64d8d"))
+		(pin "8" (uuid "cc51b2cc-9a41-53a5-bfdf-d62b2e92c3da"))
+		(pin "10" (uuid "9194eb12-b6e1-5a60-800c-5e3c2b057fac"))
+		(pin "12" (uuid "c73fdcc6-f041-5c43-b1d9-1d081a6c4781"))
+		(pin "14" (uuid "c19a3232-144a-5e4d-a81f-3a2f543e1fba"))
+		(pin "16" (uuid "4142142f-da3d-5943-a958-601514337216"))
+		(pin "18" (uuid "f19bd640-95c3-5232-b441-c6984e235b67"))
+		(pin "20" (uuid "42cf1b3d-0370-515f-adad-bc3b44912bf7"))
+		(pin "22" (uuid "d2ec0243-0070-50bd-af22-dd1838cdbf75"))
+		(pin "24" (uuid "78cc4aab-057f-5222-acc6-7f652037fbe8"))
+		(instances
+			(project "seq08-jacks"
+				(path "/329570a8-1cbc-5a6f-97f1-592351104171" (reference "J25") (unit 1))
+			)
+		)
+	)
+	(sheet_instances
+		(path "/" (page "1"))
+	)
+)

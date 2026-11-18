@@ -1,0 +1,97 @@
+(footprint "ER-TFT070A2-6-5633_Mechanical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "EastRising ER-TFT070A2-6-5633 mechanical reference, 180 x 104 mm PCB, 174 x 98 mm mounting pattern, no PCB drill pads")
+	(tags "display TFT LT7683 mechanical")
+	(property "Reference" "DS**"
+		(at 0 -54 0)
+		(layer "F.SilkS")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Value" "ER-TFT070A2-6-5633_Mechanical"
+		(at 0 54 0)
+		(layer "F.Fab")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-TFT070A2-6-5633_Datasheet.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" "Mechanical reference only. Circles show the display module's 1.6 mm holes and do not drill the main PCB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -90 -52)
+		(end 90 52)
+		(stroke (width 0.2) (type solid))
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_rect
+		(start -90 -52)
+		(end 90 52)
+		(stroke (width 0.1) (type solid))
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center -87 -49)
+		(end -86.2 -49)
+		(stroke (width 0.2) (type solid))
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_circle
+		(center 87 -49)
+		(end 87.8 -49)
+		(stroke (width 0.2) (type solid))
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_circle
+		(center -87 49)
+		(end -86.2 49)
+		(stroke (width 0.2) (type solid))
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_circle
+		(center 87 49)
+		(end 87.8 49)
+		(stroke (width 0.2) (type solid))
+		(fill no)
+		(layer "Dwgs.User")
+	)
+	(fp_text user "MODULE PCB 180 x 104 mm"
+		(at 0 -49 0)
+		(layer "Dwgs.User")
+		(effects
+			(font (size 1.5 1.5) (thickness 0.25))
+		)
+	)
+	(fp_text user "4 x 1.6 mm HOLES, 174 x 98 mm CENTERS"
+		(at 0 49 0)
+		(layer "Dwgs.User")
+		(effects
+			(font (size 1.5 1.5) (thickness 0.25))
+		)
+	)
+	(embedded_fonts no)
+)

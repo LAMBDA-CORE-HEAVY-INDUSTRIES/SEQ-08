@@ -1,0 +1,41 @@
+pin,module_signal,main_board_net,connection
+1,VSS,GND,connect
+2,VSS,GND,connect
+3,VDD,+5V_DISPLAY,connect
+4,VDD,+5V_DISPLAY,connect
+5,/SCS,DISPLAY_CS,connect through 22-33 ohm
+6,SDO,DISPLAY_MISO,connect
+7,SDI,DISPLAY_MOSI,connect through 22-33 ohm
+8,SCLK,DISPLAY_SCK,connect through 22-33 ohm
+9,WAIT,DISPLAY_WAIT,test point optional
+10,INT,DISPLAY_INT,test point optional
+11,/RESET,DISPLAY_RESET,10k pullup to 3V3 and open-drain MCU output
+12,NC,,no connect
+13,VSS,GND,connect
+14,BL_CONTROL,DISPLAY_BACKLIGHT,connect with 100k pulldown
+15,DB0,,no connect in serial mode
+16,DB1,,no connect in serial mode
+17,DB2,,no connect in serial mode
+18,DB3,,no connect in serial mode
+19,DB4,,no connect in serial mode
+20,DB5,,no connect in serial mode
+21,DB6,,no connect in serial mode
+22,DB7,,no connect in serial mode
+23,DB8,,no connect in serial mode
+24,DB9,,no connect in serial mode
+25,DB10,,no connect in serial mode
+26,DB11,,no connect in serial mode
+27,DB12,,no connect in serial mode
+28,DB13,,no connect in serial mode
+29,DB14,,no connect in serial mode
+30,DB15,,no connect in serial mode
+31,VSS,GND,connect
+32,RTP_/CS,,no connect without touch panel
+33,RTP_/PEN or CTP_INT,,no connect without touch panel
+34,RTP_DIN or CTP_SDA,,no connect without touch panel
+35,RTP_SCLK or CTP_SCL,,no connect without touch panel
+36,RTP_DOUT or CTP_/RST,,no connect without touch panel
+37,VDD,+5V_DISPLAY,connect
+38,VDD,+5V_DISPLAY,connect
+39,VSS,GND,connect
+40,VSS,GND,connect

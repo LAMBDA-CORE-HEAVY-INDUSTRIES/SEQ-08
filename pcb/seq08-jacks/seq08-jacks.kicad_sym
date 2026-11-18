@@ -1,0 +1,797 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(symbol "PJ398SM"
+		(pin_names (offset 1.0))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J" (at 0 -7.620 0) (effects
+		(font
+			(size 1.27 1.27)
+		)
+	))
+		(property "Value" "PJ398SM" (at 0 7.620 0) (effects
+		(font
+			(size 1.27 1.27)
+		)
+	))
+		(property "Footprint" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(property "Datasheet" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(property "Description" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(symbol "PJ398SM_0_1"
+			(rectangle
+				(start -7.620 -5.080)
+				(end 7.620 5.080)
+				(stroke (width 0.254) (type solid))
+				(fill (type background))
+			)
+		)
+		(symbol "PJ398SM_1_1"
+		(pin passive line
+			(at -10.160 -1.270 0)
+			(length 2.54)
+			(name "TIP" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "T" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -10.160 1.270 0)
+			(length 2.54)
+			(name "SLEEVE" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "S" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 10.160 0.000 180)
+			(length 2.54)
+			(name "TIP_NORMAL" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "TN" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CONN_2X10"
+		(pin_names (offset 1.0))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J" (at 0 -16.510 0) (effects
+		(font
+			(size 1.27 1.27)
+		)
+	))
+		(property "Value" "CONN_2X10" (at 0 16.510 0) (effects
+		(font
+			(size 1.27 1.27)
+		)
+	))
+		(property "Footprint" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(property "Datasheet" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(property "Description" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(symbol "CONN_2X10_0_1"
+			(rectangle
+				(start -10.160 -13.970)
+				(end 10.160 13.970)
+				(stroke (width 0.254) (type solid))
+				(fill (type background))
+			)
+		)
+		(symbol "CONN_2X10_1_1"
+		(pin passive line
+			(at -12.700 -11.430 0)
+			(length 2.54)
+			(name "PIN_1" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "1" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -8.890 0)
+			(length 2.54)
+			(name "PIN_3" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "3" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -6.350 0)
+			(length 2.54)
+			(name "PIN_5" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "5" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -3.810 0)
+			(length 2.54)
+			(name "PIN_7" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "7" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -1.270 0)
+			(length 2.54)
+			(name "PIN_9" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "9" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 1.270 0)
+			(length 2.54)
+			(name "PIN_11" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "11" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 3.810 0)
+			(length 2.54)
+			(name "PIN_13" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "13" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 6.350 0)
+			(length 2.54)
+			(name "PIN_15" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "15" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 8.890 0)
+			(length 2.54)
+			(name "PIN_17" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "17" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 11.430 0)
+			(length 2.54)
+			(name "PIN_19" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "19" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -11.430 180)
+			(length 2.54)
+			(name "PIN_2" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "2" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -8.890 180)
+			(length 2.54)
+			(name "PIN_4" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "4" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -6.350 180)
+			(length 2.54)
+			(name "PIN_6" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "6" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -3.810 180)
+			(length 2.54)
+			(name "PIN_8" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "8" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -1.270 180)
+			(length 2.54)
+			(name "PIN_10" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "10" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 1.270 180)
+			(length 2.54)
+			(name "PIN_12" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "12" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 3.810 180)
+			(length 2.54)
+			(name "PIN_14" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "14" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 6.350 180)
+			(length 2.54)
+			(name "PIN_16" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "16" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 8.890 180)
+			(length 2.54)
+			(name "PIN_18" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "18" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 11.430 180)
+			(length 2.54)
+			(name "PIN_20" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "20" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CONN_2X12"
+		(pin_names (offset 1.0))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J" (at 0 -19.050 0) (effects
+		(font
+			(size 1.27 1.27)
+		)
+	))
+		(property "Value" "CONN_2X12" (at 0 19.050 0) (effects
+		(font
+			(size 1.27 1.27)
+		)
+	))
+		(property "Footprint" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(property "Datasheet" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(property "Description" "" (at 0 0 0) (effects
+		(font
+			(size 1.0 1.0)
+		)
+			(hide yes)
+	))
+		(symbol "CONN_2X12_0_1"
+			(rectangle
+				(start -10.160 -16.510)
+				(end 10.160 16.510)
+				(stroke (width 0.254) (type solid))
+				(fill (type background))
+			)
+		)
+		(symbol "CONN_2X12_1_1"
+		(pin passive line
+			(at -12.700 -13.970 0)
+			(length 2.54)
+			(name "PIN_1" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "1" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -11.430 0)
+			(length 2.54)
+			(name "PIN_3" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "3" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -8.890 0)
+			(length 2.54)
+			(name "PIN_5" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "5" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -6.350 0)
+			(length 2.54)
+			(name "PIN_7" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "7" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -3.810 0)
+			(length 2.54)
+			(name "PIN_9" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "9" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 -1.270 0)
+			(length 2.54)
+			(name "PIN_11" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "11" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 1.270 0)
+			(length 2.54)
+			(name "PIN_13" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "13" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 3.810 0)
+			(length 2.54)
+			(name "PIN_15" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "15" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 6.350 0)
+			(length 2.54)
+			(name "PIN_17" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "17" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 8.890 0)
+			(length 2.54)
+			(name "PIN_19" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "19" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 11.430 0)
+			(length 2.54)
+			(name "PIN_21" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "21" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at -12.700 13.970 0)
+			(length 2.54)
+			(name "PIN_23" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "23" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -13.970 180)
+			(length 2.54)
+			(name "PIN_2" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "2" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -11.430 180)
+			(length 2.54)
+			(name "PIN_4" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "4" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -8.890 180)
+			(length 2.54)
+			(name "PIN_6" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "6" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -6.350 180)
+			(length 2.54)
+			(name "PIN_8" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "8" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -3.810 180)
+			(length 2.54)
+			(name "PIN_10" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "10" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 -1.270 180)
+			(length 2.54)
+			(name "PIN_12" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "12" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 1.270 180)
+			(length 2.54)
+			(name "PIN_14" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "14" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 3.810 180)
+			(length 2.54)
+			(name "PIN_16" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "16" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 6.350 180)
+			(length 2.54)
+			(name "PIN_18" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "18" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 8.890 180)
+			(length 2.54)
+			(name "PIN_20" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "20" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 11.430 180)
+			(length 2.54)
+			(name "PIN_22" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "22" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		(pin passive line
+			(at 12.700 13.970 180)
+			(length 2.54)
+			(name "PIN_24" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+			(number "24" (effects
+		(font
+			(size 1.0 1.0)
+		)
+	))
+		)
+		)
+		(embedded_fonts no)
+	)
+)
